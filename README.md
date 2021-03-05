@@ -31,6 +31,10 @@ Uma aplicação para criar e deletar tarefas, feita com o objetivo de praticar o
 
 <br>
 
+### Aplicação acessível em: [todoApp](https://todoapp-two-blush.vercel.app/)
+
+<br>
+
 ## Tecnologias
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
