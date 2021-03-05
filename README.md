@@ -20,7 +20,7 @@
 
 ## Sobre o App
 
-Uma aplicação para criar e deletar tarefas, feita com o objetivo de praticar os conceitos de `Typescript` e `Context API` do React, separando os componentes e utilizando `styled-components` para estilização.
+Uma aplicação para criar e deletar tarefas, sendo salvas localmente com `local storage`. Feito com o objetivo de praticar os conceitos de `Typescript` e `Context API` do React, separando os componentes e utilizando `styled-components` para estilização.
 
 <br>
 
