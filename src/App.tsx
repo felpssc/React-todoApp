@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import styled from 'styled-components';
 import './App.css';
+import { InputTask } from './components/InputTask';
+import { Task } from './components/Task';
+import { InputTaskProvider } from './contexts/InputTaskContext';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Title>TodoApp</Title>
+      <InputTaskProvider>
+        <InputTask></InputTask>
+        <Task></Task>
+      </InputTaskProvider>
+    </>
   );
 }
+
+const Title = styled.h1`
+  color: whitesmoke;
+`;
 
 export default App;
