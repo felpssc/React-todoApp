@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# TodoApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+  <img src="https://img.shields.io/badge/made%20by-Felipe%20Silva-6E40C9?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felpssc/React-todoApp?color=6E40C9&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/felpssc/React-todoApp?color=6E40C9&style=flat-square">
+</p>
 
-## Available Scripts
+<img align="right" src="https://i.imgur.com/TCNXzSM.png" width="25%" alt="Move.it">
 
-In the project directory, you can run:
+## Tópicos 
 
-### `yarn start`
+[Sobre o App](#sobre-o-move.it)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Tecnologias](#tecnologias)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Instalação e uso](#instalação-e-uso)
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sobre o App
 
-### `yarn build`
+Uma aplicação para criar e deletar tarefas, feita com o objetivo de praticar os conceitos de `Typescript` e `Context API` do React, separando os componentes e utilizando `styled-components` para estilização.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+    <img alt="TodoApp" src="https://i.imgur.com/SPAU54Y.png"/>
+  </a>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `yarn eject`
+## Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [VS Code](https://code.visualstudio.com/) 
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Instalação e uso
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/felpssc/React-todoApp.git
+# ou use a opção de download.
 
-## Learn More
+# Entre na pasta raiz do projeto e instale as dependências com:
+$ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Rode a aplicação
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse http://localhost:3000 no seu navagador.
+```
+
+<br>
+
+
+
+---
+
+Feito com 💜 by [Felipe Silva](https://github.com/felpssc) ;)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Felipe%20Silva-6E40C9?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafaeldcmartins/)](https://www.linkedin.com/in/felipesilva-1/) 
+[![Gmail Badge](https://img.shields.io/badge/-carlosfelipesilva.fs@gmail.com-6E40C9?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafaeldcmartins@gmail.com)](mailto:carlosfelipesilva.fs@gmail.com)
